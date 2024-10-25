@@ -1,0 +1,42 @@
+.main_daruliftahdash {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.has_mainperent {
+  /* background-color: skyblue; */
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu_fordash > .lists_for_menu_dash {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 30px;
+}
+.lists_for_menu_dash > .list {
+  display: inline;
+  font-size: 1.4rem;
+  font-family: "Jameel Noori Nastaleeq";
+  cursor: pointer;
+}
+.nodisplay {
+  display: none;
+}
+.displayok {
+  display: block;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

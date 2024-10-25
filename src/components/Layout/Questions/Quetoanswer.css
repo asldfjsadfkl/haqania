@@ -1,0 +1,186 @@
+.mainOF_quetoanswer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.two_quetoanswer {
+  width: 90%;
+}
+
+.sawalat_quetoanswer {
+  background-color: rgb(247, 247, 247);
+  margin-top: 15px;
+  width: 100%;
+}
+
+.sawalat_quetoanswer > ul > li {
+  padding: 7px 0px;
+  list-style-type: none;
+  border-bottom: 0.2px solid black;
+  text-align: right;
+  padding: 10px 20px;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  padding-left: 4px;
+}
+
+.sawalat_quetoanswer > h4 {
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 34px;
+  text-align: center;
+}
+/* ///section two  */
+.sectiontwoFor_buttonquetoanswer {
+  width: 80%;
+  background-color: rgb(111, 190, 255);
+  height: 10vh;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectiontwoFor_buttonquetoanswer > .div1,
+.div3 {
+  width: 10%;
+  height: 100%;
+  background-color: rgb(43, 43, 43);
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.sectiontwoFor_buttonquetoanswer > .div2 {
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 10vh;
+}
+@media (max-width: 500px) {
+  .mainOF_quetoanswer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .one_question {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .one_question > .side-menu {
+    width: 90%;
+    min-height: 30vh;
+    background-color: rgb(231, 231, 231);
+    margin-top: 10%;
+  }
+
+  .one_question > .side-menu > h3 {
+    width: 100%;
+    background-color: rgb(207, 101, 2);
+    padding: 10px;
+    text-align: center;
+    font-family: "Jameel Noori Nastaleeq";
+  }
+
+  .one_question > .side-menu > p {
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    font-family: "Jameel Noori Nastaleeq";
+  }
+
+  .one_question > .side-menu > .btn_for_sawal {
+    padding: 10px;
+    background-color: rgb(207, 101, 2);
+    font-family: "Jameel Noori Nastaleeq";
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+  } */
+
+  .two_quetoanswer {
+    width: 100%;
+  }
+
+  .sawalat_quetoanswer {
+    background-color: rgb(247, 247, 247);
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .sawalat_quetoanswer > ul > li {
+    padding: 7px 0px;
+    list-style-type: none;
+    border-bottom: 0.2px solid black;
+    text-align: right;
+    padding: 10px 20px;
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .svg {
+    width: 20px;
+    height: 20px;
+    padding-left: 4px;
+  }
+
+  .sawalat_quetoanswer > h4 {
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .sectiontwoFor_buttonquetoanswer {
+    width: 100%;
+    background-color: rgb(111, 190, 255);
+    height: 10vh;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sectiontwoFor_buttonquetoanswer > .div1,
+  .div3 {
+    width: 30%;
+    height:10vh;
+    background-color: rgb(43, 43, 43);
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+    text-decoration: none;
+  }
+
+  .sectiontwoFor_buttonquetoanswer > .div2 {
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 3vh;
+  }
+}

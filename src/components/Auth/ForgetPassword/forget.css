@@ -1,0 +1,60 @@
+.mainForget {
+  width: 100%;
+  height: 100vh;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formOF-forgetPassword {
+  width: 40%;
+  height: 40vh;
+  background-color: rgb(206, 249, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.headerofforget {
+  font-size: 2rem;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 70px;
+}
+.inputOF-forgetpass {
+  width: 90%;
+  height: 6vh;
+  text-align: left;
+  text-indent: 15px;
+  font-size: 1.2rem;
+  font-family: "Roboto";
+}
+.inputOF-forgetpass::placeholder {
+  font-size: 1rem;
+}
+.mainof-button-forgetpassword {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.save-forgetPassword {
+  width: 80%;
+  height: 6vh;
+  background-color: rgb(67, 202, 255);
+  font-size: 1.3rem;
+  font-family: "Roboto";
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+.save-forgetPassword:active {
+  width: 70%;
+  height: 5.7vh;
+  font-size: 1.2rem;
+}

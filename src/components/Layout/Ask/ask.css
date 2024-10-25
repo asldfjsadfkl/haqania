@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap");
+
+.mainofask {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .fa-solid,
+.fas {
+    font-size: 22px;
+} */
+
+.mainofask > .divforFormOfAsk {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formOfAsk {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formOfAsk > .container-div1-of-ask {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgb(218, 245, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-div2-of-ask {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div3-of-ask {
+  width: 80%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.div3-of-ask > .sectionofAskheader {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  color: rgb(89, 89, 255);
+}
+
+.text-muted-Contact {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.icon {
+  color: rgb(89, 59, 255);
+}
+
+.contact:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.formgroupsOfask {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formgroupsOfask > .testa,
+.inputtext,
+.form-control-OfAsk {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-family: "Jameel Noori Nastaleeq";
+  text-align: right;
+  font-size: 1.4em;
+  padding: 0px 10px;
+  background-color: rgb(218, 245, 255);
+  text-align: right;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+
+.input-fieldOfask {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  direction: rtl;
+}
+
+.input-fieldOfask:hover {
+  border: 2px solid rgb(89, 59, 255);
+  color: rgb(89, 59, 255);
+  cursor: pointer;
+}
+
+.formgroupsOfask > .labelOfask {
+  font-weight: 500;
+  width: 100%;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 22px;
+  direction: rtl;
+  text-align: right;
+}
+
+.fa-mobile {
+  font-size: 20px;
+}
+
+#msg {
+  height: 220px;
+}
+
+.btnContact {
+  background-color: rgb(47, 130, 255);
+  color: #fff;
+  padding: 5px 10px;
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+  border: 5px solid rgb(43, 195, 255);
+  border-radius: 20px;
+  outline: none;
+}
+
+.mobile-info {
+  display: none;
+}
+
+.hidayat {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.hidayat > .hid {
+  width: 100%;
+}
+
+.hidayat > .hid > h4 {
+  text-align: right;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 2rem;
+}
+
+.hidayat > .hid > .h {
+  list-style: none;
+  list-style-position: unset;
+  text-align: right;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 1.7rem;
+}
+
+@media (max-width: 500px) {
+    .mainofask {
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      /* .fa-solid,
+      .fas {
+          font-size: 22px;
+      } */
+      
+      .mainofask > .divforFormOfAsk {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .formOfAsk {
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .formOfAsk > .container-div1-of-ask {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px auto;
+        background-color: rgb(218, 245, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .row-div2-of-ask {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+      .div3-of-ask {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .div3-of-ask > .sectionofAskheader {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+      }
+      
+      h2 {
+        color: rgb(89, 89, 255);
+      }
+      
+      .text-muted-Contact {
+        font-family: "Ubuntu", sans-serif;
+      }
+      
+      .fa-map-marker,
+      .fa-phone,
+      .fa-envelope {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      
+      .icon {
+        color: rgb(89, 59, 255);
+      }
+      
+      .contact:hover {
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+      }
+      
+      .formgroupsOfask {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .formgroupsOfask > .testa,
+      .inputtext,
+      .form-control-OfAsk {
+        outline: none;
+        border: none;
+        width: 100%;
+        font-family: "Jameel Noori Nastaleeq";
+        text-align: right;
+        font-size: 1.4em;
+        padding: 0px 10px;
+        background-color: rgb(218, 245, 255);
+        text-align: right;
+        font-size: 1.4rem;
+        overflow: hidden;
+      }
+      
+      .input-fieldOfask {
+        border: 1px solid #ddd;
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row-reverse;
+        direction: rtl;
+      }
+      
+      .input-fieldOfask:hover {
+        border: 2px solid rgb(89, 59, 255);
+        color: rgb(89, 59, 255);
+        cursor: pointer;
+      }
+      
+      .formgroupsOfask > .labelOfask {
+        font-weight: 500;
+        width: 100%;
+        font-family: "Jameel Noori Nastaleeq";
+        font-size: 22px;
+        direction: rtl;
+        text-align: right;
+      }
+      
+      .fa-mobile {
+        font-size: 20px;
+      }
+      
+      #msg {
+        height: 220px;
+      }
+      
+      .btnContact {
+        background-color: rgb(47, 130, 255);
+        color: #fff;
+        padding: 5px 10px;
+        width: 200px;
+        margin: 10px auto;
+        text-align: center;
+        border: 5px solid rgb(43, 195, 255);
+        border-radius: 20px;
+        outline: none;
+      }
+      
+      .mobile-info {
+        display: none;
+      }
+      
+      .hidayat {
+        width: 90%;
+        margin-top: 50px;
+      }
+      
+      .hidayat > .hid {
+        width: 100%;
+      }
+      
+      .hidayat > .hid > h4 {
+        text-align: right;
+        font-family: "Jameel Noori Nastaleeq";
+        font-size: 2rem;
+      }
+      
+      .hidayat > .hid > .h {
+        list-style: none;
+        list-style-position: unset;
+        text-align: right;
+        font-family: "Jameel Noori Nastaleeq";
+        font-size: 1.7rem;
+      }
+      
+}

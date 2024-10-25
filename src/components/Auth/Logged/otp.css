@@ -1,0 +1,46 @@
+/* <form style={{"border":"2px solid black", "width": "50%", "height": "40vh", "display": "flex", "flexDirection": "column","justifyContent":"center","alignItems":"center" }}>
+<h3 style={{ "textAlign": "center" }}>The verification code sent to you on your number</h3>
+<input className="changerolelogged" autoComplete="off" placeholder='Verification Code' required type="number" />
+<button style={{ "width": "80%", "height": "4vh", "textAlign": "center" }} className='verifyButton' type='button'>Verify</button>
+</form> */
+
+.main-otp {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-otp {
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.input-otp-code {
+    width: 100%;
+    height: 6vh;
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.verify-Button-otp {
+    width: 100%;
+    height: 5vh;
+    font-size: 1.4rem;
+transition: all 0.5s ease;
+}
+
+.verify-Button-otp:active {
+    width: 80%;
+    height: 5vh;
+    font-size: 1.3rem;
+
+}

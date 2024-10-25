@@ -1,0 +1,89 @@
+.main_std {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div_ofmain {
+  width: 80%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.divunder_divofmain {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jameel Noori Nastaleeq";
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table_std {
+  width: 60%;
+  height: 80vh;
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table_raw {
+  border: 1px solid white;
+}
+.table_data {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Jameel Noori Nastaleeq";
+  width: 40%;
+}
+
+@media (max-width: 500px) {
+  .main_std {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .div_ofmain {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  .divunder_divofmain {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Jameel Noori Nastaleeq";
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .table_std {
+    width: 80%;
+    height: 80vh;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  .table_raw {
+    border: 1px solid white;
+  }
+  .table_data {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Jameel Noori Nastaleeq";
+    width: 30%;
+  }
+}

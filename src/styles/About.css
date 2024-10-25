@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.man-about {
+    width: 100%;
+    height: 47vmax;
+    background-color: rgb(233, 233, 233);
+}
+
+
+.main_about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 47vmax;
+    padding: 0px 50px;
+}
+
+
+
+.first {
+    width: 40%;
+    margin-top: 90px;
+}
+
+.second {
+    width: 40%;
+}
+
+.img_about {
+    width: 500px;
+    height: 400px;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img {
+    0% {
+        width: 500px;
+        height: 400px;
+    }
+
+    50% {
+        width: 450px;
+        height: 350px;
+    }
+
+    100% {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+
+
+.content {
+    text-align: justify;
+    text-indent: 60px;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+@media (max-width:900px) {
+
+    .man-about {
+        width: 100%;
+        min-height: 130vmax;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .main_about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vmax;
+        padding: 0px 0px;
+    }
+
+    .first {
+        width: 90%;
+        order: 2;
+    }
+
+    .second {
+        width: 60%;
+        order: 1;
+    }
+
+    .img_about {
+        width: 90%;
+        height: 200px;
+        animation-name: img;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+
+
+    @keyframes img {
+        0% {
+            width: 90%;
+            height: 200px;
+        }
+
+        50% {
+            width: 80%;
+            height: 194px;
+        }
+
+        100% {
+            width: 90%;
+            height: 200px;
+        }
+    }
+
+    .content {
+        text-align: justify;
+        text-indent: 60px;
+        font-size: 17px;
+        font-family: Roboto;
+    }
+
+
+}

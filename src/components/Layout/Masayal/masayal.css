@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500&family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap");
+
+.mainofmain-masayal {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerOf-masayal {
+  width: 90%;
+  height: 10vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.h2oflesson {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: wheat;
+}
+
+/* ///////////////searhEngin-input-masayal */
+.searhEngin-input-masayal {
+  width: 500px;
+  height: 5vh;
+  background-color: rgb(215, 255, 252);
+  font-size: 1.4rem;
+  font-family: "Jameel Noori Nastaleeq";
+  text-indent: 20px;
+  text-align: right;
+  direction: rtl;
+  outline: none;
+  border: 2px solid rgb(60, 151, 255);
+  border-radius: 50px;
+}
+
+.nayamasla {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Jameel Noori Nastaleeq";
+  color: white;
+}
+.nodispaly {
+  display: none;
+}
+.mainOfmasayal {
+  width: 80%;
+  background-color: rgb(205, 205, 205);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+  padding: 0px 90px;
+}
+
+.question > #question {
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 1.5rem;
+  text-align: justify;
+  direction: rtl;
+  text-indent: 30px;
+  width: 100%;
+  display: block;
+}
+
+.answer > #answer {
+  width: 100%;
+  display: block;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 1.4rem;
+  direction: rtl;
+  text-indent: 40px;
+  word-wrap: break-word;
+  direction: rtl;
+  text-align: justify;
+}
+
+.labelofmasayal1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(204, 242, 255);
+  font-size: 1.6rem;
+  font-family: "Jameel Noori Nastaleeq";
+  padding-right: 30px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.labelofmasayal1answer {
+  display: block;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 1.6rem;
+  font-family: "Jameel Noori Nastaleeq";
+  font-weight: 900;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+
+.labelofmasayal1 > .maslaupdate {
+  font-size: 1rem;
+  margin-left: 20px;
+  height: 4vh;
+  outline: none;
+  width: 90px;
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+@media (max-width: 500px) {
+  .mainofmain-masayal {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .headerOf-masayal {
+    width: 100%;
+    height: 7vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .h2oflesson {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: wheat;
+    font-size: 1.4rem;
+  }
+
+  /* ///////////////searhEngin-input-masayal */
+  .searhEngin-input-masayal {
+    width: 150px;
+    height: 5vh;
+    background-color: rgb(215, 255, 252);
+    font-size: 1.4rem;
+    font-family: "Jameel Noori Nastaleeq";
+    text-indent: 20px;
+    text-align: right;
+    direction: rtl;
+    outline: none;
+    border: 2px solid rgb(60, 151, 255);
+    border-radius: 50px;
+  }
+
+  .nayamasla {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: "Jameel Noori Nastaleeq";
+    color: white;
+  }
+  .nodispaly {
+    display: none;
+  }
+  .mainOfmasayal {
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    padding: 0px 20px;
+  }
+
+  .question > #question {
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 1.5rem;
+    text-align: justify;
+    direction: rtl;
+    text-indent: 30px;
+    width: 100%;
+    display: block;
+  }
+
+  .answer > #answer {
+    width: 100%;
+    display: block;
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 1.4rem;
+    direction: rtl;
+    text-indent: 20px;
+    word-wrap: break-word;
+    direction: rtl;
+    text-align: justify;
+  }
+
+  .labelofmasayal1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: left;
+    direction: ltr;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(204, 242, 255);
+    font-size: 1.6rem;
+    font-family: "Jameel Noori Nastaleeq";
+    padding-right: 30px;
+    margin-top: 10px;
+  }
+
+  .labelofmasayal1answer {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.6rem;
+    font-family: "Jameel Noori Nastaleeq";
+    font-weight: 900;
+    padding-right: 30px;
+    margin-top: 10px;
+  }
+
+  .labelofmasayal1 > .maslaupdate {
+    font-size: 1rem;
+    margin-left: 10px;
+    height: 4vh;
+    outline: none;
+    width: 70px;
+    border-radius: 20px;
+    border: 1px solid blue;
+  }
+}

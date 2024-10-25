@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500&family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap");
+
+.nodisplayinlessons {
+  display: none;
+}
+
+.lessonoflesson {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divfor-header-oflesson {
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.h1forlesson {
+  display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.divfor-header-oflesson > .headerFor-lesson > .lessonbutton {
+  width: 300px;
+  height: 5vh;
+  line-height: 5vh;
+  font-size: 1.3rem;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+}
+
+.divfor-header-oflesson > .headerFor-lesson > .lessonbutton:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(40, 138, 250);
+}
+
+/* ///////////// headerFor-lesson  */
+.headerFor-lesson {
+  width: 70%;
+  height: 9vh;
+  background-color: rgba(255, 255, 255, 0.781);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.inputsearchin-IN-lesson {
+  display: block;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(32, 118, 247);
+  font-size: 1.4rem;
+  font-family: "Jameel Noori Nastaleeq";
+  text-decoration: none;
+  direction: rtl;
+  text-align: right;
+  text-indent: 20px;
+  outline: none;
+  border-radius: 250px;
+  border: 2px solid rgb(11, 117, 255);
+}
+
+.mainOflesson {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: right;
+  padding: 0px 90px;
+}
+
+.mainOflesson > .article {
+  width: 100%;
+  min-height: 20vh;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 24px;
+  margin: 20px 0px;
+  background-color: rgb(205, 205, 205);
+}
+
+.mainOflesson > .article > .unwan {
+  width: 100%;
+  height: 7vh;
+  line-height: 7vh;
+  background-color: rgb(192, 239, 255);
+  font-size: 30px;
+  font-family: "Jameel Noori Nastaleeq";
+  padding: 5px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.mainOflesson > .article > .unwan > .spanoftajded > .buttonoftajded {
+  width: 100px;
+  height: 4vh;
+  font-size: 1.4rem;
+  margin: 0px 100px;
+}
+
+.mainOflesson > .article > .unwan > .spanoftahzeef > .buttonoftajzeef {
+  width: 100px;
+  height: 4vh;
+  font-size: 1.4rem;
+  margin: 0px 100px;
+}
+
+.mainOflesson > .article > .unwan > .spanoftajded > .buttonoftajded:hover,
+.mainOflesson > .article > .unwan > .spanoftahzeef > .buttonoftajzeef:hover {
+  background-color: rgb(64, 201, 255);
+}
+
+.mainOflesson > .article > .mazmon {
+  font-size: 1.4rem;
+  font-family: "Jameel Noori Nastaleeq";
+  padding: 0px 20px;
+  margin-top: 20px;
+  text-align: justify;
+  direction: rtl;
+  text-indent: 80px;
+}
+
+@media (max-width: 500px) {
+  .lessonoflesson {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .divfor-header-oflesson {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .h1forlesson {
+    display: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+
+  .divfor-header-oflesson > .headerFor-lesson > .lessonbutton {
+    width: 200px;
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 1rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+  }
+
+  .divfor-header-oflesson > .headerFor-lesson > .lessonbutton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(40, 138, 250);
+  }
+
+  /* ///////////// headerFor-lesson  */
+  .headerFor-lesson {
+    width: 100%;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.781);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .inputsearchin-IN-lesson {
+    display: block;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 118, 247);
+    font-size: 1.4rem;
+    font-family: "Jameel Noori Nastaleeq";
+    text-decoration: none;
+    direction: rtl;
+    text-align: right;
+    text-indent: 20px;
+    outline: none;
+    border-radius: 250px;
+    border: 2px solid rgb(11, 117, 255);
+  }
+
+  .mainOflesson {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    padding: 0px 10px;
+  }
+
+  .mainOflesson > .article {
+    width: 100%;
+    min-height: 20vh;
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 24px;
+    margin: 10px 0px;
+    background-color: rgb(205, 205, 205);
+  }
+
+  .mainOflesson > .article > .unwan {
+    width: 100%;
+    height: 7vh;
+    line-height: 7vh;
+    background-color: rgb(192, 239, 255);
+    font-size: 30px;
+    font-family: "Jameel Noori Nastaleeq";
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .mainOflesson > .article > .unwan > .spanoftajded > .buttonoftajded {
+    width: 70px;
+    height: 4vh;
+    font-size: 1.2rem;
+    margin: 0px 5px;
+  }
+
+  .mainOflesson > .article > .unwan > .spanoftahzeef > .buttonoftajzeef {
+    width: 70px;
+    height: 4vh;
+    font-size: 1.4rem;
+    margin: 0px 5px;
+  }
+
+  .mainOflesson > .article > .unwan > .spanoftajded > .buttonoftajded:hover,
+  .mainOflesson > .article > .unwan > .spanoftahzeef > .buttonoftajzeef:hover {
+    background-color: rgb(64, 201, 255);
+  }
+
+  .mainOflesson > .article > .mazmon {
+    font-size: 1.4rem;
+    font-family: "Jameel Noori Nastaleeq";
+    padding: 0px 5px;
+    margin-top: 10px;
+    text-align: justify;
+    direction: rtl;
+    text-indent: 20px;
+  }
+}

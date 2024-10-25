@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap");
+
+.main_dashBoardall {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height: 80vh;
+}
+
+.secondMain_indashall {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height: 80vh;
+  position: relative;
+}
+
+.secondMain_indashall > .logoandadmininfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(111, 190, 255);
+
+  gap: 50%;
+}
+
+.logoandadmininfo > .headerforname {
+  margin-left: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Jameel Noori Nastaleeq";
+  background-color: rgb(111, 190, 255);
+  padding: 20px 10px;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.logoandadmininfo > .adminInfo {
+  margin-left: 50px;
+  display: inline-block;
+  background-color: rgb(111, 190, 255);
+
+  text-align: right;
+}
+
+.adminInfo > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.adminInfo > .adminspan {
+  font-size: 24px;
+  font-family: "Jameel Noori Nastaleeq";
+  font-weight: 600;
+  margin-right: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.secondMain_indashall > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+}
+
+.secondMain_indashall > ul > li {
+  width: 100%;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.secondMain_indashall > ul > li:hover {
+  background-color: rgb(111, 190, 255);
+}
+
+.secondMain_indashall > ul > li > .span1 {
+  text-align: right;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 24px;
+  text-align: right;
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.secondMain_indashall > ul > li > .span2 {
+  font-size: 20px;
+  text-align: right;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .main_dashBoardall {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 80vh;
+  }
+
+  .secondMain_indashall {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 80vh;
+    position: relative;
+  }
+
+  .secondMain_indashall > .logoandadmininfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(111, 190, 255);
+    gap: 0;
+  }
+
+  .logoandadmininfo > .headerforname {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Jameel Noori Nastaleeq";
+    background-color: rgb(111, 190, 255);
+    padding: 20px 10px;
+    display: block;
+    font-size:1.4rem;
+    font-weight: 700;
+  }
+
+  .logoandadmininfo > .adminInfo {
+    margin-left: 50px;
+    display: inline-block;
+    background-color: rgb(111, 190, 255);
+
+    text-align: right;
+  }
+
+  .adminInfo > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 40px;
+    display: none;
+  }
+
+  .adminInfo > .adminspan {
+    font-size: 1rem;
+    font-family: "Jameel Noori Nastaleeq";
+    font-weight: 600;
+    margin-right: 30px;
+    color: rgb(0, 0, 0);
+  }
+
+  .secondMain_indashall > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+  }
+
+  .secondMain_indashall > ul > li {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+  }
+
+  .secondMain_indashall > ul > li:hover {
+    background-color: rgb(111, 190, 255);
+  }
+
+  .secondMain_indashall > ul > li > .span1 {
+    text-align: right;
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 24px;
+    text-align: right;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .secondMain_indashall > ul > li > .span2 {
+    font-size: 20px;
+    text-align: right;
+    color: white;
+  }
+}

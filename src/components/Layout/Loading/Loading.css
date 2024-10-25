@@ -1,0 +1,5 @@
+.loadingdiv {
+  background-color: rgba(138, 0, 0, 0.151);
+  min-height: 100vh;
+  width: 100%;
+}

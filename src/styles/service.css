@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Noto+Sans+Arabic&display=swap');
+
+.art_mains {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px 10px;
+    margin: 30px 180px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardbody {
+    width: 340px;
+    height: 300px;
+    margin: 0px auto;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.329);
+
+}
+
+.cardbody:hover {
+    box-shadow: 1px 1px 10px rgb(167, 167, 167);
+
+}
+
+.headofInfo {
+    font-family: Ubuntu;
+    font-size: 25px;
+}
+
+.cont {
+    text-align: justify;
+    font-size: 17px;
+    padding: 0px 20px;
+    font-family: "Roboto";
+}
+
+.icons {
+    font-size: 40px;
+    background-color: rgba(0, 17, 255, 0.349);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+.buttofinfo {
+    font-size: 15px;
+    margin: 10px 40%;
+
+}
+
+/* custom css  */
+@media (max-width:800px) {
+
+    .art_mains {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        margin: 30px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .cardbody {
+        width: 95%;
+        border: 1px solid rgba(128, 128, 128, 0.541);
+        margin: 0px auto;
+    }
+
+}

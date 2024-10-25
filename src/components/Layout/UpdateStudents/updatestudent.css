@@ -1,0 +1,118 @@
+.mainofupdatecss {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.updateS {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionOfupdatestudnet {
+  font-size: 9mm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.inputofupdatestudents {
+  width: 100%;
+  height: 6vh;
+  font-family: Roboto;
+  margin: 9px 0px 9px 0px;
+  border: 0.2px solid rgb(104, 104, 104);
+  outline: none;
+  padding: 10px;
+  text-align: right;
+  border-radius: 4px;
+  font-family: "Jameel Noori Nastaleeq";
+  font-size: 6mm;
+}
+
+.inputofupdatestudents::placeholder {
+  color: rgba(0, 0, 0, 0.473);
+}
+
+.inputofupdatestudents:hover {
+  border: 2px solid rgb(62, 139, 255);
+}
+
+.submitOfupdateS {
+  width: 50%;
+  height: 7vh;
+  border-radius: 30px;
+  border: none;
+}
+
+.submitOfupdateS:hover {
+  border: 2px solid rgb(62, 139, 255);
+}
+@media (max-width: 500px) {
+  .mainofupdatecss {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .updateS {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: skyblue;
+  }
+
+  .sectionOfupdatestudnet {
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .inputofupdatestudents {
+    background-color: rgba(0, 0, 255, 0);
+    width: 95%;
+    height: 6vh;
+    font-family: Roboto;
+    margin: 9px 0px 9px 0px;
+    border: 0.2px solid rgb(104, 104, 104);
+    outline: none;
+    padding: 10px;
+    text-align: right;
+    border-radius: 4px;
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 1.3rem;
+  }
+
+  .inputofupdatestudents::placeholder {
+    color: rgba(0, 0, 0, 0.473);
+  }
+
+  .inputofupdatestudents:hover {
+    border: 2px solid rgb(62, 139, 255);
+  }
+
+  .submitOfupdateS {
+    width: 50%;
+    height: 5vh;
+    border-radius: 30px;
+    border: none;
+    margin: 4px;
+    font-size: 1.2rem;
+    font-family: "Jameel Noori Nastaleeq";
+  }
+
+  .submitOfupdateS:hover {
+    border: 2px solid rgb(62, 139, 255);
+  }
+}
