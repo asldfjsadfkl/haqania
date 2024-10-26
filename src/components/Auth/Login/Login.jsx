@@ -18,7 +18,7 @@ const Login = () => {
     try {
       setLoading(true);
       await axios.post(`${server}/register`, data, {
-        headers: { "Content-Type": "application/json" },
+        // headers: { "Content-Type": "application/json" },
         withCredentials: true,
       });
       setLoading(false);
