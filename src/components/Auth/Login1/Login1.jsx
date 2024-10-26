@@ -16,13 +16,13 @@ const Login1 = () => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const data = Object.fromEntries(form);
-    const config = {
-      headers: { "Content-Type": "application/json" },
-      withCredentials: true,
-    };
+
     try {
       setLoading(true);
-      await axios.post(`${server}/login`, data, config);
+      await axios.post(`${server}/login`, data, {
+        headers: { "Content-Type": "application/json" },
+        withCredentials: true,
+      });
       setLoading(false);
       navigate("/");
       window.location.reload();

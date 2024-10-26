@@ -16,12 +16,11 @@ const Login = () => {
     const data = Object.fromEntries(Form);
 
     try {
-      const config = {
+      setLoading(true);
+      await axios.post(`${server}/register`, data, {
         headers: { "Content-Type": "application/json" },
         withCredentials: true,
-      };
-      setLoading(true);
-      await axios.post(`${server}/register`, data, config);
+      });
       setLoading(false);
       navigate("/");
       window.location.reload();
