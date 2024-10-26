@@ -52,13 +52,17 @@ const Logged = () => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const data = Object.fromEntries(form);
-
-    // const email = user.email;
+    const email = user.email;
+    const { key, role } = data;
     try {
-      await axios.patch(`${server}/changerole`, data, {
-        headers: { "Content-Type": "application/json" },
-        withCredentials: true,
-      });
+      await axios.patch(
+        `${server}/changerole`,
+        { key, role, email },
+        {
+          headers: { "Content-Type": "application/json" },
+          withCredentials: true,
+        }
+      );
       clickClose();
       window.location.reload();
     } catch (error) {
@@ -110,14 +114,12 @@ const Logged = () => {
               <div className="actions">
                 <div className="follow-info">
                   <h2>
-            
                     <a href="#">
                       <span>Role</span>
                       <small>{user?.role}</small>
                     </a>
                   </h2>
                   <h2>
-                    // eslint-disable-next-line
                     <a href="#">
                       <span onClick={clickOpen}>Change</span>
                       <small>role</small>
@@ -151,6 +153,14 @@ const Logged = () => {
               type="text"
               placeholder="User Role"
               name="role"
+            />
+            <input
+              className="changerolelogged"
+              autoComplete="off"
+              required
+              type="email"
+              placeholder="Email"
+              name="email"
             />
             {/* 
             <div className="changerolelogged-div-select">
